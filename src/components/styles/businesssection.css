@@ -7,6 +7,16 @@
   background-color: #fff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
+.business-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.business-link:hover {
+  color: #1b030a;
+}
 
 @media (max-width: 768px) {
   .business-container {

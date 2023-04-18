@@ -27,7 +27,9 @@ function BusinessSection() {
   return (
     <div className="business-container">
       <div className="business-text">
-        <h2 className="business-title">Business</h2>
+        <h2 className="business-title">
+          <a href="/business" className="business-link">Business</a>
+        </h2>
         <p className="business-description">
           Take your business to new heights with <br />
           SikePay's business account. By partnering with us,

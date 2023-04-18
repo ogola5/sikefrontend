@@ -28,7 +28,10 @@ function BankingSection() {
   return (
     <div className="banking-container" ref={bankingRef}>
       <div className="banking-text">
-        <h2 className="banking-title">Banking</h2>
+
+        <h2 className="banking-title">
+          <a href="/banking" className="banking-link">Banking</a>
+        </h2>
         <p>
           Unlock your business's potential with SikePay's comprehensive banking solutions.
           <br />

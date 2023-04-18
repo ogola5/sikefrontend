@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "../styles/paymentsection.css"; // import your CSS file
-import payment from "../images/payment.png"; // import your payments image
+import payment from "../images/payment1.png"; // import your payments image
 
 function PaymentsSection() {
   const imageRef = useRef(null);

@@ -27,7 +27,10 @@ function HeroSection() {
           Unlock the potential of your business with our comprehensive banking
           and payment solutions.
         </p>
-        <button>Get Started</button>
+        <a href="/signup">
+          <button>Get Started</button>
+        </a>
+
       </div>
     </div>
   );
